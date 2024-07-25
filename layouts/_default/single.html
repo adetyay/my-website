@@ -1,4 +1,18 @@
 {{ define "main" }}
+<div class="w-full h-full bg-white border-4 border-gray-200 p-4 overflow-x-auto markdown" role="main">
+    <h1 class="text-2xl font-bold mb-4">{{ .Title }}</h1>
+    <time class="text-sm text-gray-500 mb-4 block">{{ .Date.Format "January 2, 2006" }}</time>
+    {{ .Content }}
+    <a href="/" class="mt-4 inline-block">>> Home</a>
+</div>
+{{ end }}
+
+
+
+
+
+
+{{/*  {{ define "main" }}
 
 <main
   class="w-full h-full bg-white border-4 border-gray-200 p-4 overflow-x-auto markdown"
@@ -9,4 +23,4 @@
   </p>
 </main>
 
-{{ end }}
+{{ end }}  */}}
