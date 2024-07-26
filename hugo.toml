@@ -9,6 +9,16 @@ unsafe=true
 # Add menu links to things from /content/ here (eg. markdown.md)
 
 [[menu.main]]
-name = "Posts"
-url = "/posts/"
+name = "Blog"
+url = "/blog/"
 weight = 1
+
+[[menu.main]]
+name = "Projects"
+url = "/projects/"
+weight = 2
+
+[[menu.main]]
+name = "Updates"
+url = "/updates/"
+weight = 3
